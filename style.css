@@ -60,3 +60,16 @@ a:hover {
 .project-card:hover {
   transform: translateY(-5px);
 }
+#skills h3 {
+  margin-top: 20px;
+  color: #38bdf8;
+}
+#languages .project-card p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+#soft-skills .project-card p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
