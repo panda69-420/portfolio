@@ -43,6 +43,13 @@ a {
   border-radius: 8px;
   font-weight: bold;
 }
+nav ul li a {
+  background: none !important;   /* remove blue box */
+  padding: 5px 8px;             /* reduce size */
+  margin: 0;                    /* remove extra spacing */
+  font-size: 0.9rem;
+  color: #e2e8f0;
+}
 
 a:hover {
   background: #0ea5e9;
@@ -82,8 +89,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 25px;   /* 🔥 reduced from 15px 40px */
+  padding: 10px 20px;
   z-index: 1000;
+  box-sizing: border-box; /* 🔥 important */
 }
 
 nav h2 {
@@ -95,9 +103,11 @@ nav h2 {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 15px;   /* 🔥 reduced gap */
+  gap: 12px;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;   /* 🔥 allows wrapping */
+  justify-content: flex-end;
 }
 
 nav ul li a {
