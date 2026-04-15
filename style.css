@@ -33,16 +33,15 @@ h2 {
 }
 
 /* Buttons */
-a {
+#hero a {
   display: inline-block;
   margin: 10px;
   padding: 12px 20px;
   background: #38bdf8;
   color: black;
-  text-decoration: none;
   border-radius: 8px;
-  font-weight: bold;
 }
+
 nav ul li a {
   background: none !important;   /* remove blue box */
   padding: 5px 8px;             /* reduce size */
