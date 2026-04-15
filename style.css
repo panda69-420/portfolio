@@ -1,9 +1,45 @@
 body {
-  font-family: Arial;
-  text-align: center;
-  background: #f4f4f4;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: white;
 }
 
-h1 {
-  color: #333;
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Hero */
+#hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Buttons */
+a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* Project Cards */
+.project-card {
+  background: #1e293b;
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
 }
