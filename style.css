@@ -2,17 +2,30 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   background: #0f172a;
-  color: white;
+  color: #e2e8f0;
 }
 
 /* Sections */
 section {
-  padding: 60px 20px;
-  text-align: center;
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Headings */
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #38bdf8;
+  display: inline-block;
 }
 
 /* Hero */
 #hero {
+  text-align: center;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,23 +36,27 @@ section {
 a {
   display: inline-block;
   margin: 10px;
-  padding: 10px 20px;
+  padding: 12px 20px;
   background: #38bdf8;
   color: black;
   text-decoration: none;
   border-radius: 8px;
+  font-weight: bold;
+}
+
+a:hover {
+  background: #0ea5e9;
 }
 
 /* Project Cards */
 .project-card {
   background: #1e293b;
-  margin: 20px auto;
   padding: 20px;
-  width: 300px;
+  margin: 20px 0;
   border-radius: 12px;
   transition: 0.3s;
 }
 
 .project-card:hover {
-  transform: scale(1.05);
+  transform: translateY(-5px);
 }
