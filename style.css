@@ -105,3 +105,9 @@ nav ul li a {
 nav ul li a:hover {
   color: #38bdf8;
 }
+body {
+  padding-top: 80px;
+}
+html {
+  scroll-behavior: smooth;
+}
