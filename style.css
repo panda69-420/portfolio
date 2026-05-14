@@ -121,3 +121,13 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.github-link {
+  color: #facc15;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.github-link:hover {
+  color: #fde047;
+  background: transparent;
+}
